@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    generate-ddl: true
+application:
+  auth:
+    jwt-secret: "some-secret-value"
+    jwt-expiration-time: 1h
+    cookie-name: "SESSION"
+  admin:
+    username: "admin"
+    password: "admin"
